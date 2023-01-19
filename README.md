@@ -8,4 +8,5 @@ Python projekt napravljen za vođenje evidencije o rezervacijama u hotelu. Napra
 Baza podataka, kao i sama aplikacija se može mijenjati i prilagoditi na različite objekte.
 
 ## Spanjolski-Slogovi-python
-Desktop python aplikacija koja odvaja španjolske riječi u slogove sa '-'. Radi na principu pravila koja su već unaprijed određena za odvajanje takvih riječi.
+Desktop python aplikacija koja odvaja španjolske riječi u slogove sa '-'. Radi na principu pravila koja su već unaprijed određena za odvajanje takvih riječi.  
+Sastoji se od GUI tkinter aplikacije koja može učitati i spremiti datoteke i tri programa koji pokazuju razine testiranja i ispravka grešaka prilikom testiranja aplikacije ako je algoritam točan.
