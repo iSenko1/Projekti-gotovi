@@ -1,0 +1,82 @@
+ [
+    {  "ID": "1",
+        "Name": "Kaštel Gradec",
+        "Image": "./images/slika1.png"
+    },
+    { "ID": "2",
+        "Name": "Kaštel u Krku",
+        "Image": "./images/slika2.png"
+    },
+    { "ID": "3",
+        "Name": "Samostan Košljun",
+        "Image": "./images/slika3.png"
+    },
+    {  "ID": "4",
+        "Name": "Kaštel Grobnik",
+        "Image": "./images/slika4.png"
+    },
+    { "ID": "5",
+        "Name": "Kaštel Trsat",
+        "Image": "./images/slika5.png"
+    },
+    { "ID": "6",
+        "Name": "Kaštel u Bakru",
+        "Image": "./images/slika6.png"
+    },
+    {  "ID": "7",
+    "Name": "Dvorac Nova Kraljevica",
+    "Image": "./images/slika7.png"
+    },
+    { "ID": "8",
+        "Name": "Stari grad Zrinskih",
+        "Image": "./images/slika8.png"
+    },
+    { "ID": "9",
+        "Name": "Stari grad Hreljin",
+        "Image": "./images/slika9.png"
+    },
+    {  "ID": "10",
+        "Name": "Kaštel Drivenik",
+        "Image": "./images/slika10.png"
+    },
+    { "ID": "11",
+        "Name": "Kaštel Grižane",
+        "Image": "./images/slika11.png"
+    },
+    { "ID": "12",
+        "Name": "Pavlinski samostan",
+        "Image": "./images/slika12.png"
+    },
+    {  "ID": "13",
+        "Name": "Kula u Bribiru",
+        "Image": "./images/slika13.png"
+    },
+    { "ID": "14",
+        "Name": "Kaštel s kulom Kvadrac",
+        "Image": "./images/slika14.png"
+    },
+    { "ID": "15",
+        "Name": "Stari grad Ledenice",
+        "Image": "./images/slika15.png"
+    },
+    { "ID": "16",
+        "Name": "Dvorac Zrniskih u Čabru",
+        "Image": "./images/slika16.png"
+    },
+    { "ID": "17",
+        "Name": "Kaštel Zrnskih, Brod na Kupi",
+        "Image": "./images/slika17.png"
+    },
+    {  "ID": "18",
+        "Name": "Dvorac Severin",
+        "Image": "./images/slika18.png"
+    },
+    { "ID": "19",
+        "Name": "Dvorac Stara Sušica",
+        "Image": "./images/slika19.png"
+    },
+    { "ID": "20",
+        "Name": "Manastir Gomirje",
+        "Image": "./images/slika20.png"
+    }
+ ]

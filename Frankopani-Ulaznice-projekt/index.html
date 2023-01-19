@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Prodaja karata</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
+    <link
+      href="http://fonts.googleapis.com/css?family=Nixie+One"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="loader">
+      <div>
+        <img src="images/icons/preloader.gif" />
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-5 left-wrapper">
+          <div class="event-banner-wrapper">
+            <div class="logo">
+              <h1>
+                Putovima <br />
+                Frankopana
+              </h1>
+            </div>
+
+            <h2>
+              Kupovina<br />Karata
+            </h2>
+          </div>
+        </div>
+        <div class="col-sm-7 right-wrapper">
+          <div class="event-ticket-wrapper">
+            <div class="event-tab">
+              <!-- Nav tabs -->
+              <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active">
+                  <a
+                    href="#buyTicket"
+                    aria-controls="buyTicket"
+                    role="tab"
+                    data-toggle="tab"
+                    >Odabir Karata</a
+                  >
+                </li>
+                <li role="presentation">
+                  <a
+                    href="#venue"
+                    aria-controls="venue"
+                    role="tab"
+                    data-toggle="tab"
+                    >Mjesta</a
+                  >
+                </li>
+
+                <li role="presentation">
+                  <a
+                    href="#termCondition"
+                    aria-controls="termCondition"
+                    role="tab"
+                    data-toggle="tab"
+                    >Terms & Conditions</a
+                  >
+                </li>
+              </ul>
+
+              <!-- Tabovi -->
+              <div class="tab-content">
+                <div
+                  role="tabpanel"
+                  class="tab-pane fade in active"
+                  id="buyTicket"
+                >
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="ticketBox" data-ticket-price="10">
+                        <div class="inactiveStatus"></div>
+
+                        <div class="row">
+                          <div class="col-xs-6">
+                            <div class="ticket-name">
+                              <span class="naslov-karte">Odrasli</span>
+                              <span class="opis-karte"
+                                >Karta za osobe 18+<br />
+                                1 Karta za 1 osobu</span
+                              >
+                            </div>
+                          </div>
+
+                          <div class="col-xs-6">
+                            <div class="ticket-price-count-box">
+                              <div class="ticket-control">
+                                <div class="input-group">
+                                  <span class="input-group-btn">
+                                    <button
+                                      type="button"
+                                      class="btn btn-default btn-number"
+                                      disabled="disabled"
+                                      data-type="minus"
+                                      data-field="quant[1]"
+                                    >
+                                      <span
+                                        class="glyphicon glyphicon-minus"
+                                      ></span>
+                                    </button>
+                                  </span>
+                                  <input
+                                    type="text"
+                                    name="quant[1]"
+                                    class="form-control input-number"
+                                    value="0"
+                                    min="0"
+                                    max="10"
+                                  />
+                                  <span class="input-group-btn">
+                                    <button
+                                      type="button"
+                                      class="btn btn-default btn-number"
+                                      data-type="plus"
+                                      data-field="quant[1]"
+                                    >
+                                      <span
+                                        class="glyphicon glyphicon-plus"
+                                      ></span>
+                                    </button>
+                                  </span>
+                                </div>
+                              </div>
+                              <p class="price">10 €</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="ticket-description">
+                          <p>
+                            <strong>Infromacije o karti:</strong><br />Karta za
+                            osobe koje su imaju više od 18 godina.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="ticketBox" data-ticket-price="5">
+                        <div class="inactiveStatus"></div>
+                        <div class="row">
+                          <div class="col-xs-6">
+                            <div class="ticket-name">
+                              <span class="naslov-karte">Djeca</span>
+                              <span class="opis-karte">
+                                Karta za djecu<br />
+                                1 Karta za 1 djete</span
+                              >
+                            </div>
+                          </div>
+
+                          <div class="col-xs-6">
+                            <div class="ticket-price-count-box">
+                              <div class="ticket-control">
+                                <div class="input-group">
+                                  <span class="input-group-btn">
+                                    <button
+                                      type="button"
+                                      class="btn btn-default btn-number"
+                                      disabled="disabled"
+                                      data-type="minus"
+                                      data-field="quant[2]"
+                                    >
+                                      <span
+                                        class="glyphicon glyphicon-minus"
+                                      ></span>
+                                    </button>
+                                  </span>
+                                  <input
+                                    type="text"
+                                    name="quant[2]"
+                                    class="form-control input-number"
+                                    value="0"
+                                    min="0"
+                                    max="10"
+                                  />
+                                  <span class="input-group-btn">
+                                    <button
+                                      type="button"
+                                      class="btn btn-default btn-number"
+                                      data-type="plus"
+                                      data-field="quant[2]"
+                                    >
+                                      <span
+                                        class="glyphicon glyphicon-plus"
+                                      ></span>
+                                    </button>
+                                  </span>
+                                </div>
+                              </div>
+                              <p class="price">5 €</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="ticket-description">
+                          <p>
+                            <strong>Infromacije o karti:</strong><br />Karta za
+                            djecu do 18 godina starosti.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- OBITELJSKA -->
+                    <div class="col-md-6">
+                      <div class="ticketBox" data-ticket-price="25">
+                        <div class="inactiveStatus"></div>
+
+                        <div class="row">
+                          <div class="col-xs-6">
+                            <div class="ticket-name">
+                              <span class="naslov-karte">Obiteljska</span>
+                              <span class="opis-karte">
+                                Obiteljska karta<br />
+                                1 Karta za 4 osobe</span
+                              >
+                            </div>
+                          </div>
+
+                          <div class="col-xs-6">
+                            <div class="ticket-price-count-box">
+                              <div class="ticket-control">
+                                <div class="input-group">
+                                  <span class="input-group-btn">
+                                    <button
+                                      type="button"
+                                      class="btn btn-default btn-number"
+                                      disabled="disabled"
+                                      data-type="minus"
+                                      data-field="quant[3]"
+                                    >
+                                      <span
+                                        class="glyphicon glyphicon-minus"
+                                      ></span>
+                                    </button>
+                                  </span>
+                                  <input
+                                    type="text"
+                                    name="quant[3]"
+                                    class="form-control input-number"
+                                    value="0"
+                                    min="0"
+                                    max="10"
+                                  />
+                                  <span class="input-group-btn">
+                                    <button
+                                      type="button"
+                                      class="btn btn-default btn-number"
+                                      data-type="plus"
+                                      data-field="quant[3]"
+                                    >
+                                      <span
+                                        class="glyphicon glyphicon-plus"
+                                      ></span>
+                                    </button>
+                                  </span>
+                                </div>
+                              </div>
+                              <p class="price">25 €</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="ticket-description">
+                          <p>
+                            <strong>Infromacije o karti:</strong><br />Karta za obitelj koja sadrži 4 osobe. 2 odrasle osobe i 2 djece.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- UNOS DATUMA I MJESTA -->
+                    <div class="col-md-6">
+                      <h3>Datum:</h1>
+                        <input type="date" id="datepicker" min="">
+
+                        <br><br>
+                      <select id="sel" onchange="show(this)">
+                        <option value="">-- Odabir mjesta --</option>
+                    </select>
+                    </div>
+                  </div>
+                </div>
+              
+              <div role="tabpanel" class="tab-pane fade" id="venue">
+                <br />
+                <iframe
+                  src="https://ruta.frankopani.eu/"
+                  width="640"
+                  height="900"
+                ></iframe>
+              </div>
+              <div role="tabpanel" class="tab-pane fade" id="termCondition">
+                <h4>
+                  Primjer dodan za testiranje.
+                </h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="cart">
+            <div class="row">
+              <div class="col-xs-6">
+                <p>
+                  Kolicina Karata: <span class="ticket-count"></span>
+                  <span class="divider"></span> Ukupno: €
+                  <span class="total-amount">0</span>
+                </p>
+              </div>
+              <div class="col-xs-6">
+                <div class="text-right">
+                  <a
+                    class="btn disabled view-cart-button"
+                    data-toggle="modal"
+                    data-target="#ticket-details"
+                    >NASTAVI</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal right fade"
+      id="ticket-details"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <img src="images/icons/cancel.png" />
+            </button>
+            <h4 class="modal-title">Vaše Karte</h4>
+          </div>
+          <div class="modal-body">
+            <div class="cart-information">
+              <img
+                src="images/frankopani.png"
+                alt="frankopani"
+                width="70%"
+                height="70%"
+              />
+              <h1>Karte:</h1>
+              <span class="ticket-count karte-popis"></span>
+              <hr />
+              <ul>
+                <li class="datum-kraj">Mjesto: <span class="mjesto-ime"></span></li>
+                <hr />
+                <li class="datum-kraj">Datum: <span class="datum-odabir"></span></li>
+                <hr />
+                <li>Ukupno: <span class="total-amount-2"></span></li>
+                <hr />
+              </ul>
+            </div>
+
+            <div class="contactForm">
+              <h3>Vaše informacije za kupovinu</h3>
+              <form>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Unesite vaše ime"
+                    id="forma-ime"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Unesite vašu mail adresu"
+                    id="forma-mail"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Unesite broj telefona"
+                    id="forma-telefon"
+                  />
+                </div>
+
+                <a type="submit" class="btn" id="checkout-button"
+                  >ZAVRŠETAK KUPOVINE</a
+                >
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.2.11/jspdf.plugin.autotable.min.js" ></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/allscript.js"></script>
+
+  </body>
+</html>
